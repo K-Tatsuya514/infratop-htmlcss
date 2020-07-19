@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix::after{
+	content:"";
+	display: block;
+	clear: both;
+}
+
+.boxes{
+	width: 600px;
+	background-color: yellow;
+	margin: 0 auto;
+}
+
+.box1{
+	width: 150px;
+	height: 400px;
+	background-color: orange;
+	float: left;
+}
+
+.box2{
+	width: 250px;
+	height: 400px;
+	background-color: red;
+	float: right;
+}
