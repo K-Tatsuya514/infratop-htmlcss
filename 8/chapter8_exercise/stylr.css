@@ -8,7 +8,7 @@ ul{
 	list-style: none;
 }
 
-.clearfix{
+.clearfix::after{
 	content: "";
 	display: block;
 	clear: both;
@@ -33,8 +33,9 @@ ul{
 
 .boxes{
 	width: 960px;
+	padding-bottom: 50px;
 	margin: 0 auto;
-	background-color: green;
+	/*background-color: green;*/
 }
 
 .box{
@@ -49,7 +50,7 @@ ul{
 	margin-right: 0;
 }
 .box:nth-child(7),.box:nth-child(8),.box:nth-child(9){
-	margin-bottom: 50px;
+	margin-bottom: 0;
 }
 .box:nth-child(1),.box:nth-child(5),.box:nth-child(9){
 	background-color: orange;
